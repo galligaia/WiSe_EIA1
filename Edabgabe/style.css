@@ -1,0 +1,122 @@
+header {
+    background-color: grey;
+    height: 50px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+body{
+    background-image: url('./Bilder/textur.jpg!d');
+    background-repeat: repeat;
+}
+
+footer{
+    margin-top: 75%;
+    background-color: grey;
+    text-align: center;
+    height: 50px;
+    padding-top: 5px;
+}
+
+h1{
+    font-size: 35px;
+    color: whitesmoke;
+    margin-top: 0px;
+}
+p{
+    color: whitesmoke;
+}
+
+.Card{
+    height: 138;
+    width: 102;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 10%;
+}
+#PlayerHand .Card{
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 28px;
+}
+#CPUHand .Card{
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+#TableCard .Card{
+    margin-top: -30px;
+    margin-left: -10px;
+}
+
+.card.Hidden{
+    background-image: url("./Bilder/rueckseite.png");
+}
+
+#DrawCards .Card{
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: -10px;
+}
+
+.CardValue{
+    color: Black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.Blue{
+    background: url('./Bilder/blaue_karte.png')
+}
+
+.Red{
+    background: url('./Bilder/rote_karte.png')
+}
+
+.Green{
+    background: url('./Bilder/gruene_karte.png')
+}
+
+.Yellow{
+    background: url('./Bilder/gelbe_karte.png')
+}
+
+#CPUHand{
+    background-image: url('./Bilder/wood.jpg');
+    height: 200px;
+    width: 100%;
+    clear: both;
+    margin-bottom: -1%;
+}
+
+#DrawCards{
+    height: 150px;
+    width: 75px;
+    float: left;
+    margin-left: 25%;
+    margin-bottom: 0%;
+    margin-top: 7%;
+}
+
+#TableCard{
+    height: 150px;
+    width: 75px;
+    float: left;
+    margin-bottom: 0%;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+
+#PlayerHand{
+    background-image: url('./Bilder/wood.jpg');
+    height: 200px;
+    width: 100%;
+    clear: both;
+    margin-bottom: -75%;
+}
